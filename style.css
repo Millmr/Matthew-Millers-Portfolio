@@ -1,0 +1,153 @@
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+:root {
+    --dark: darkcyan;
+    --light: rgb(238, 161, 9);  
+}
+
+header {
+text-align: right;
+justify-content: space-between;
+border-style: groove;
+border-color: var(--light);
+border-width: 7px;
+border-radius: 5px;
+padding: 1em;
+background-color: var(--dark);
+font-size: 35px;
+position: relative;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 65px;
+    
+}
+
+
+.aboutme {
+    color: rgb(4, 39, 63);
+    background-color: var(--light);
+    border-style: groove;
+    border-width: 7px;
+    border-radius: 2px;
+    border-color: var(--dark);
+    font-size: 20px;
+}
+
+#ame {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Workheader {
+    background-color: var(--dark);
+    color: honeydew;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 50px;
+    margin: 0%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--dark);
+    height:500px;
+    align-items: center;
+    width: 100%;
+    border-style: groove;
+    border-color: var(--light);
+    border-width: 7px;
+    
+}
+
+.headimg {
+    border-style: solid;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 350px;
+}
+
+main {
+    display: flex;
+}
+
+.wrk {
+    position: relative;
+    left: 75px;
+    width: 50%;
+    padding: 2px;
+    margin: 20px;
+    background-color:black;
+    border-width: 3px;
+    box-shadow: 7px 7px 5px rgb(92, 91, 91);
+}
+
+.wrk:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+
+#work {
+    background-color: var(--dark);
+    color: honeydew;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#matt {
+    position: relative;
+    right: 140px;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: var(--light);
+} 
+
+@media screen and (max-width: 1300px) {
+    .wrk {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .wrk {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .wrk {
+        width: 50%;
+        float: left;
+    }
+
+    .grid {
+        grid-template-columns: none;
+    }
+}
