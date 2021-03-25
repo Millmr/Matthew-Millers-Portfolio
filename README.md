@@ -4,4 +4,5 @@ Matthew Miller's portfolio is a portfolio of current and future work done by Mat
 ![image](https://github.com/Millmr/Matthew-Millers-Portfolio/blob/main/MM%20Portfolio%202.png)
 ## Work
 Inside of this profile you will find Matthew Miller's work.  The first image is linked correctly, but will not take you anywhere because its not currently live.
-Here is a link to the other project. https://scratch.mit.edu/projects/490206514
+![image](https://github.com/Millmr/Matthew-Millers-Portfolio/blob/main/Work%20Section.png)
+## Check it out below
