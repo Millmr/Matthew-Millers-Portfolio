@@ -60,7 +60,7 @@ header h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--dark);
-    height:500px;
+    height:620px;
     align-items: center;
     width: 100%;
     border-style: groove;
@@ -148,7 +148,8 @@ main {
     }
 
     .grid {
-        grid-template-columns: none;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto;
+        grid-template-rows: fr fr;
+        height: 1000px;
     }
 }
